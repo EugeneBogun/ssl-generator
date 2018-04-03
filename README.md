@@ -1,4 +1,4 @@
-#Self signed ssl generator #
+# Self signed ssl generator #
 
 `root-generator.sh` - generate root.key and root.pem into root-certificate
 `certificate-generator.sh` - generate crt,csr and key files for domain
