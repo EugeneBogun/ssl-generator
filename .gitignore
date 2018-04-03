@@ -1,0 +1,6 @@
+*
+!.gitignore
+!certificate-generator.sh
+!generator.sh
+!README.md
+!root-generator.sh

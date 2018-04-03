@@ -15,9 +15,11 @@ DIRECTORY=`dirname $0`
 KEY_DIRECTORY=$DIRECTORY/certificates/$DOMAIN
 ROOT_KEY_DIRECTORY=$DIRECTORY/root-certificate
 
+rm -rf $KEY_DIRECTORY
 mkdir $KEY_DIRECTORY
 
-if [ -f $KEY_DIRECTORY/device.key ]; then
+if [ -f $KEY_DIRECTORY/device.key ]
+then
   KEY_OPT="-key"
 else
   KEY_OPT="-keyout"
